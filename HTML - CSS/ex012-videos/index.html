@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedado localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor. (consome dados do servidor do site)</p>
+    <video width="560" poster="imagens/skate.jpg" controls>
+        <source src="midia/videoteste1.m4v" type="video/mp4"> 
+        <source src="midia/videoteste1.mp4" type="video/mp4"> 
+        <source src="midia/videoteste1.webm" type="video/webm"> 
+        <p>Seu navegador não tem compatibilidade com reprodutor de video</p>
+    </video>
+
+    <h1>Inserindo videos hospedados na internet</h1>
+    <p>Consome dados do servidor externo</p>
+    <h1>YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mH2mdTXNbnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/29612414?color=ff9933&title=0" width="560" height="238" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+</html>
